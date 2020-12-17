@@ -1,0 +1,444 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h1{font-size: 2.5rem;}
+h3{font-size: 1.75rem;}
+h4{font-size: 1.5rem;}
+h5{font-size: 1.25rem;}
+h6{font-size: 1rem;}
+h1, h2, h3, h4, h5, h6
+{
+	margin-bottom: 0.5rem;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	background-image: url(../img/back.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	position: relative;
+	background-size: 100% 160%;
+	line-height: 1.5;
+	position: relative;
+  	min-height: 100vh;
+  	padding-bottom: 100px;
+}
+.header{
+	width: 100%;
+	height: auto;
+	font-family: 'Anton', sans-serif;
+	color: #fff; 
+	margin-top: 5%;
+}
+.top_line{
+	height: 95px;
+	box-shadow: rgb(255, 255, 255) 0 0 0 2px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: flex; 
+	flex-direction: row;
+	justify-content: center;
+}
+.logo img{
+	margin-top: 13px;
+}
+.reg_auth{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	display: flex;
+	flex-direction: row;
+}
+.reg_auth>div{
+	display: flex;
+	flex-direction: column;
+}
+.btn:hover{
+	border-bottom: 2px solid rgb(102, 0, 255);
+	margin-top: 7px;
+	color: #ffd700;
+	transition: all.3s ease;
+}
+.btn:active{
+	border-bottom: 0;
+	margin-top: 9px;
+	color: #ffd700;
+	transition: all.3s ease;
+}
+.btn{
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+	border-radius: 5px;
+	padding: 5px 9px;
+	font-size: 1.2em;
+	background-color: #7f00ff;
+	text-shadow: #454545 0 0 2px;
+	border-bottom: 4px solid rgb(102, 0, 255);
+	font-family: 'Roboto Slab', serif;
+	color: #fff;
+	transition: all.3s ease;
+}
+.logged{
+	color: #fff;
+	text-decoration: none;
+}
+.logged:hover{
+	color: #ffd700;
+	text-decoration: none;
+}
+.topnav{
+	background-color: transparent;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.topnav a{
+	color: #ffd700;
+	text-align: center;
+	padding: 14px 50px;
+	font-size: 24px;
+	text-decoration: none;
+	border-bottom: 2px solid rgba(0,0,0,0);
+	transition: all.3s ease;
+	margin-top: 150px;
+}
+.topnav a:hover{
+	border-bottom: 2px solid #fff;
+	color: #fff;
+	text-decoration: none;
+	transition: all.3s ease;
+}
+.container{
+	margin-top: 50px;
+	height: auto;
+	background-color: rgba(24, 33, 52, 0.7);
+	text-align: center;
+	box-shadow: 0 -5px 0 #3ADBFD;
+	border-radius: 0 0 10px 10px;
+	max-width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: flex;
+	flex-direction: column;
+}
+.container a{
+	text-decoration: none;
+}
+label{
+	color: #fff;
+}
+.container>form{
+	display: flex;
+	flex-direction: column;
+}
+.incontainer h1{
+	font-family: 'Roboto Slab', serif; 
+	color: #ffd700;
+}
+.incontainer p{
+	font-family: 'Raleway', sans-serif; 
+	color: #fff;
+	margin-bottom: 1rem;
+}
+table {
+	font-family: 'Raleway', sans-serif; 
+	color: #fff;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover {
+	background-color:#f5f5f5;
+	color: #000;
+	transition: all.9s ease;
+}
+tr{
+	transition: all.9s ease;
+}
+#navbar {
+	top: -130px;
+	min-height: 70px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+  	position: fixed;
+  	transition: all 0.3s;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: row;
+  	flex-grow: 1;
+}
+#navbar a{
+	border: 2px solid #fff;
+  	float: left;
+  	display: block;
+  	color: #fff;
+  	text-align: center;
+  	padding: 15px;
+  	text-decoration: none;
+  	font-size: 20px;
+  	margin-left: 3px;
+  	transition: all.5s ease;
+}
+#navbar a:hover{
+	transition: all 0.5s ease;
+  	border: 2px solid #ffd700;
+  	color: #ffd700;
+  	padding: 18px;
+  	background-color: #7f00ff;
+}
+.our{
+	margin-top: 50px;
+	min-height: 60px;
+	box-shadow: rgb(58, 219, 253) 2px 0 0 2px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.inour{
+	color: #ffd700; 
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+}
+.carousel{
+	margin-top: -24px;
+}
+.carousel img {
+      width: 100%;
+      margin-top: 27px;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	min-height: 50px;
+	border-top: 2px solid rgb(58, 219, 253);
+	width: 100%;
+	background-color: rgba(80, 80, 80, 0.8);
+	position: absolute;
+	bottom: 0;
+}
+footer pre{
+	font-family: 'Roboto Slab', serif;
+	color: #fff;
+	font-size: 1em;
+}
+::-webkit-scrollbar{
+	width: 8px;
+	background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+	border-radius: 13px;
+	background-color: #7f00ff;
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+::-webkit-scrollbar-track{
+	border-radius: 13px;
+	background-color: #fff;
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+
+dl{
+	font-family: 'Raleway', sans-serif; 
+	color: #fff;
+	margin-left: 5%;
+	margin-top: 2%;
+	text-align: left;
+}
+#butZ, #butZ1 {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+#butZ1{
+	display: none;
+}
+#Zaure{
+	display: none; 
+	margin-top: 20px;
+}
+#butZ:hover, #butZ1:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #000;
+  transition-duration: 0.5s;
+}
+#clear {
+	display: none;
+  	clear: both;
+  	text-align: left;
+}
+#day{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-family: 'Raleway', sans-serif; 
+	color: #fff;
+	padding: 10px;
+}
+i{
+	margin-right: 5px;
+}
+
+#wrapper{  padding: 10px;  width:90%;  margin:60px auto; }
+.contents div{text-align:center; color:#fff; font-size:20px; margin:20px auto}
+#page-navi {
+  width:50%;
+  margin:40px auto;
+  margin-bottom:10px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#page-navi li {
+  list-style: none;
+  display: inline;
+}
+
+#page-navi li a {
+  float: left;
+  display: block;
+  padding: 8px 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  background: #fff;
+  -webkit-transition: background 200ms linear;
+  transition: background 200ms linear;
+  border-radius: 3px;
+  color:#000;
+}
+
+#page-navi li:last-child a {
+  margin-right: 0px;
+}
+
+#page-navi li a.current,
+#page-navi li a.disable,
+#page-navi li a:hover {
+  background: tomato;
+  color: #fff;
+  border-bottom:3px solid #fff;
+}
+
+@media only screen and (max-width: 760px) {
+	.reg_auth{
+		display: none;
+	}
+	nav{
+		display: none;
+	}
+	#day{
+		display: none;
+	}
+	#navbar a{
+		font-size: 0.8em;
+	}
+	.header{
+		margin-top: 20%;
+	}
+	.container{
+		margin-top: 65px;
+	}
+}
+        
+
+h1{
+    text-align: center;
+	font-size: 2.5em;
+	font-family: 'Roboto Slab', serif; 
+	color: #ffd700;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+}
+.post{
+    width: 100%;
+    height: auto;
+    padding: 2em 2em 0px;
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-bottom: 2em;
+    transition: background 0.3s ease;
+}
+.post:hover{
+    background-color: rgba(255,255,255,0.7);
+    transition: background 0.3s ease;
+}
+.headings{
+    font-size: 2.2em;
+    color: #000;
+}
+.line{
+    border: 1px solid black;
+}
+.content{
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.buttons{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.edit{
+    outline: none;
+    padding: 8px 16px;
+    background-color: khaki;
+    font-weight: bold;
+    color: black;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+.edit:hover{
+    background-color: darkkhaki;
+    transition: all 0.3s ease;
+}
+.delete{
+    outline: none;
+    padding: 8px 16px;
+    background-color: firebrick;
+    font-weight: bold;
+    color: black;
+    border-radius: 4px;
+    margin-left: 1em;
+    transition: all 0.3s ease;
+}
+.delete:hover{
+    color: firebrick;
+    background-color: black;
+    transition: all 0.3s ease;
+}
